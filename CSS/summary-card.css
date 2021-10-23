@@ -1,0 +1,121 @@
+*, body {
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+}
+
+p {
+    font-size: 16px;
+}
+
+.background {
+    background: url("../images/pattern-background-desktop.svg") no-repeat;
+    background-size: contain;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(227, 83%, 95%);;
+}
+
+.card {
+    margin: 6em auto auto auto;
+    padding-bottom: 3em;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 20px;
+    width: 25%;
+    text-align: center;
+    display: block;
+    z-index: 1;
+}
+
+#dancing-man {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.container > h1 {
+    padding-top: 1em;
+    font-weight: 900;
+}
+
+.container > p {
+    padding: 10px 60px;
+}
+
+#any {
+    color: hsl(224, 23%, 55%);
+}
+
+.annual {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: 10px auto;
+    padding: 30px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.annual > div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+
+.pricing > p {
+    padding-top: 5px;
+    color: hsl(224, 23%, 55%);
+}
+
+.annual > a {
+    margin: auto 10px auto auto;
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+}
+
+#btn {
+    margin: 2em;
+}
+
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 1em;
+    margin: auto;
+    width: 84%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#cancel > a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.attribution { 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    font-size: 11px; 
+    text-align: center; 
+    }
+
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
