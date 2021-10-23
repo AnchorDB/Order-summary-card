@@ -26,7 +26,7 @@ p {
     width: 25%;
     text-align: center;
     display: block;
-    z-index: 1;
+    z-index: 2;
 }
 
 #dancing-man {
